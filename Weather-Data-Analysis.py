@@ -26,3 +26,4 @@ print(weather1)
 print(data.head(2))
 
 print(data [data.Weather == 'Clear'])
+print(data.groupby('Weather').get_group('Clear'))
