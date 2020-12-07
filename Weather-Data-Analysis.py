@@ -16,3 +16,13 @@ wind_speed = data.head(2)
 print(wind_speed)
 print(data.nunique())
 print(data['Wind Speed_km/h'].nunique())
+print(data['Wind Speed_km/h'].unique())
+ 
+print(data.head(2))
+weather1 = data.Weather.value_counts()
+print(weather1)
+
+
+print(data.head(2))
+
+print(data [data.Weather == 'Clear'])
