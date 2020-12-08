@@ -46,3 +46,15 @@ print(data.Press_kPa.std())
 
 print(data['Rel Hum_%'].var())
 
+
+# value_counts
+print(data['weather Condition'].value_counts())
+
+#filtring
+print(data[data['weather Condition'] =='Snow'] )
+
+#str.contains
+print(data[data['weather Condition'].str.contains('Snow')].head(50) )
+print(data[data['weather Condition'].str.contains('Snow')].tail(50) )
+
+
