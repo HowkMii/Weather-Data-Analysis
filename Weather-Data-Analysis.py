@@ -38,3 +38,6 @@ print(data.notnull().sum())
 data.rename(columns = {'Weather': 'weather Condition'})
 print(data.rename(columns = {'Weather': 'weather Condition'}, inplace=True))
 
+
+print(data.Visibility_km.mean())
+
