@@ -41,3 +41,6 @@ print(data.rename(columns = {'Weather': 'weather Condition'}, inplace=True))
 
 print(data.Visibility_km.mean())
 
+
+print(data.Press_kPa.std())
+
