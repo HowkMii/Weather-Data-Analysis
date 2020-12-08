@@ -34,3 +34,7 @@ print(data.isnull().sum())
 
 print(data.notnull())
 print(data.notnull().sum())
+
+data.rename(columns = {'Weather': 'weather Condition'})
+print(data.rename(columns = {'Weather': 'weather Condition'}, inplace=True))
+
