@@ -58,3 +58,8 @@ print(data[data['weather Condition'].str.contains('Snow')].head(50) )
 print(data[data['weather Condition'].str.contains('Snow')].tail(50) )
 
 
+
+#wind speed
+print(data[(data['Wind Speed_km/h'] > 24) & (data['Visibility_km'] == 25)] )
+
+
