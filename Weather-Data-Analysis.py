@@ -27,3 +27,10 @@ print(data.head(2))
 
 print(data [data.Weather == 'Clear'])
 print(data.groupby('Weather').get_group('Clear'))
+
+
+print(data.isnull())
+print(data.isnull().sum())
+
+print(data.notnull())
+print(data.notnull().sum())
