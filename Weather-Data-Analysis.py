@@ -44,3 +44,5 @@ print(data.Visibility_km.mean())
 
 print(data.Press_kPa.std())
 
+print(data['Rel Hum_%'].var())
+
