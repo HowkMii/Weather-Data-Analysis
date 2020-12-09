@@ -79,6 +79,14 @@ print(data[(data['weather Condition'  ] == 'Clear') | (data ['Visibility_km'] > 
 
 
 
+print(data[(data['weather Condition'  ] == 'Clear') & (data ['Rel Hum_%'] > 50)| (data['Visibility_km'] > 40)] )     
+
+
+
+
+
+
+
 
 
 
