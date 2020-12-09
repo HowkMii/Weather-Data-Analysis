@@ -63,3 +63,11 @@ print(data[data['weather Condition'].str.contains('Snow')].tail(50) )
 print(data[(data['Wind Speed_km/h'] > 24) & (data['Visibility_km'] == 25)] )
 
 
+print(data.groupby('weather Condition').mean() )
+
+
+
+
+
+
+
