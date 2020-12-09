@@ -67,6 +67,14 @@ print(data.groupby('weather Condition').mean() )
 
 
 
+print(data.groupby('weather Condition').min() )
+
+
+
+print(data[data['weather Condition'] == 'Fog'] )
+
+
+
 
 
 
