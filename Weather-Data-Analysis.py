@@ -71,7 +71,11 @@ print(data.groupby('weather Condition').min() )
 
 
 
-print(data[data['weather Condition'] == 'Fog'] )
+print(data[data['weather Condition'] == 'Fog']  )
+
+
+print(data[(data['weather Condition'  ] == 'Clear') | (data ['Visibility_km'] > 40)] ) 
+
 
 
 
